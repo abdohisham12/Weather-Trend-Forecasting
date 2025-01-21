@@ -8,9 +8,8 @@ This project demonstrates the use of machine learning models to forecast essenti
 - Explore and visualize trends in weather data.
 - Conduct advanced analyses, such as anomaly detection and feature importance.
 
----
-
 ## Features
+
 ### Data Preprocessing
 - **Cleaning:** Addressed missing values and outliers for reliable data quality.
 - **Feature Engineering:** Added derived features like **daytime duration** and **feels-like temperature** to improve prediction accuracy.
@@ -44,5 +43,65 @@ Source: [World Weather Repository on Kaggle](https://www.kaggle.com/).
 ---
 
 ## Folder Structure
+├── data/ # Raw and processed datasets.
 
+├── notebooks/ # Jupyter notebooks for analysis.
 
+├── models/ # Saved machine learning models.
+
+├── reports/ # Project report and visualizations.
+
+├── src/ # Source code for preprocessing and modeling.
+
+└── README.md # Project documentation.
+
+---
+
+## How to Use
+
+### 1. Clone the Repository
+Clone the project to your local machine using the following command:
+```bash
+git clone https://github.com/your-username/weather-forecasting.git
+cd weather-forecasting
+```
+
+### 2. Run the Analysis
+- Use Jupyter notebooks in the `notebooks/` directory to explore data and perform analysis.
+- Execute scripts in the `src/` folder to preprocess data and train machine learning models.
+
+### 3. View Results
+- Explore visualizations and performance metrics in the `reports/` folder.
+- Saved models are available in the `models/` directory for reuse.
+
+---
+
+## Results
+
+### Model Performance:
+| Model          | R² Score |
+|----------------|----------|
+| XGBoost        | 0.91     |
+| SVR            | 0.98     |
+| Random Forest  | Moderate |
+
+### Insights:
+- **Seasonal Trends:** Strong seasonal patterns observed in temperature and humidity.
+- **Correlations:** Significant relationship between temperature and humidity metrics.
+- **Regional Variations:** Location-specific differences highlight the importance of regional adjustments in modeling.
+
+---
+
+## Future Work
+
+### Model Improvements:
+- Explore advanced models such as LSTM and VAR for time series forecasting.
+- Perform hyperparameter tuning to enhance model performance.
+
+### Real-Time Integration:
+- Extend the project to include real-time weather data for live predictions.
+
+### Additional Features:
+- Integrate more environmental factors to improve the accuracy and scope of predictions.
+
+---

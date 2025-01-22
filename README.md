@@ -55,8 +55,8 @@ cd weather-forecasting
 ```
 
 ### 2. Run the Analysis
-- Use Jupyter notebooks in the `notebooks/` directory to explore data and perform analysis.
-- Execute scripts in the `src/` folder to preprocess data and train machine learning models.
+- Use Jupyter notebook provided to explore data and perform analysis.
+- Execute scripts in the folder to preprocess data and train machine learning models.
 
 ## Results
 

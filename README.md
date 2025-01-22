@@ -45,18 +45,6 @@ Source: [World Weather Repository on Kaggle](https://www.kaggle.com/).
 
 ---
 
-## Folder Structure
-```
-├── data/         # Raw and processed datasets.
-├── notebooks/    # Jupyter notebooks for analysis.
-├── models/       # Saved machine learning models.
-├── reports/      # Project report and visualizations.
-├── src/          # Source code for preprocessing and modeling.
-└── README.md     # Project documentation.
-```
-
----
-
 ## How to Use
 
 ### 1. Clone the Repository
@@ -69,12 +57,6 @@ cd weather-forecasting
 ### 2. Run the Analysis
 - Use Jupyter notebooks in the `notebooks/` directory to explore data and perform analysis.
 - Execute scripts in the `src/` folder to preprocess data and train machine learning models.
-
-### 3. View Results
-- Explore visualizations and performance metrics in the `reports/` folder.
-- Saved models are available in the `models/` directory for reuse.
-
----
 
 ## Results
 

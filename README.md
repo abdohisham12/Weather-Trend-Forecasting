@@ -8,6 +8,8 @@ This project demonstrates the use of machine learning models to forecast essenti
 - Explore and visualize trends in weather data.
 - Conduct advanced analyses, such as anomaly detection and feature importance.
 
+---
+
 ## Features
 
 ### Data Preprocessing
@@ -23,7 +25,8 @@ This project demonstrates the use of machine learning models to forecast essenti
 ### Machine Learning Models
 - **XGBoost:** Achieved **R² = 0.91**, effective for general predictions.
 - **SVR (Support Vector Regressor):** Achieved **R² = 0.98**, excellent for time series predictions.
-- **Random Forest:** Provided insights into feature importance.
+- **Random Forest:** Provided insights into feature importance with general R² score of **0.87**.
+- **LightGBM:** Provided results for each target, focusing on one at a time.
 
 ### Advanced Analyses
 - **Anomaly Detection:** Identified unusual weather patterns.
@@ -43,17 +46,14 @@ Source: [World Weather Repository on Kaggle](https://www.kaggle.com/).
 ---
 
 ## Folder Structure
-├── data/ # Raw and processed datasets.
-
-├── notebooks/ # Jupyter notebooks for analysis.
-
-├── models/ # Saved machine learning models.
-
-├── reports/ # Project report and visualizations.
-
-├── src/ # Source code for preprocessing and modeling.
-
-└── README.md # Project documentation.
+```
+├── data/         # Raw and processed datasets.
+├── notebooks/    # Jupyter notebooks for analysis.
+├── models/       # Saved machine learning models.
+├── reports/      # Project report and visualizations.
+├── src/          # Source code for preprocessing and modeling.
+└── README.md     # Project documentation.
+```
 
 ---
 
@@ -62,7 +62,7 @@ Source: [World Weather Repository on Kaggle](https://www.kaggle.com/).
 ### 1. Clone the Repository
 Clone the project to your local machine using the following command:
 ```bash
-git clone https://github.com/your-username/weather-forecasting.git
+git clone https://github.com/abdohisham12/weather-forecasting.git
 cd weather-forecasting
 ```
 
@@ -83,7 +83,7 @@ cd weather-forecasting
 |----------------|----------|
 | XGBoost        | 0.91     |
 | SVR            | 0.98     |
-| Random Forest  | Moderate |
+| Random Forest  | 0.87     |
 
 ### Insights:
 - **Seasonal Trends:** Strong seasonal patterns observed in temperature and humidity.
